@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import Reserving from './components/Reserving';
 
 ReactDOM.render(
-  <Reserving />,
+  <Reserving reserver="Riku"/>,
   document.getElementById('app')
 );
